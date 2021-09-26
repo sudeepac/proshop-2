@@ -3,7 +3,6 @@ import React from "react";
 // import PropTypes from "prop-types";
 
 export const Rating = ({ value, text, color }) => {
-  console.log("Rating is running");
   return (
     <div className="rating">
       <span>

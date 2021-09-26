@@ -24,6 +24,8 @@ export const ProductScreen = ({ history, match }) => {
 
   const { loading, error, product } = productDetails;
 
+  console.log("ProductScreen Ran");
+
   useEffect(() => {
     dispatch(listProductDetails(match.params.id));
   }, [dispatch, match.params.id]);

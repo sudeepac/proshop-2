@@ -13,6 +13,9 @@ export const HomeScreen = () => {
 
   const { loading, error, products } = productList;
 
+  console.log(products);
+  console.log("HomeScreen Ran");
+
   useEffect(() => {
     dispatch(listProducts());
   }, [dispatch]);
