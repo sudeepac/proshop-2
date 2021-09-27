@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["myorders", "placeorder", "Proshop"]
+  "cSpell.words": [
+    "adminmenu",
+    "isadmin",
+    "myorders",
+    "placeorder",
+    "productlist",
+    "Proshop",
+    "userlist"
+  ]
 }
