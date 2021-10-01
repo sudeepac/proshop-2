@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "16.7",
+    "npm": "7.20"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
